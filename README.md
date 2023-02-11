@@ -56,10 +56,11 @@ Clone down this repository. You will need `node.js`, `discord.js`, `dotenv` and 
 2. Create a new application
 3. Go to `Bot` and create a new bot. **REMEMBER to copy it's TOKEN as you'll not be able to see it later**
 4. Go to `OAuth2 > URL Generator` and select on **Scopes**: `bot` and `application.commands`
-5. Scroll down and select on **BOT Permissions: `Administrator`
+5. Scroll down and select on **BOT Permissions**: `Administrator`
 6. Below all of these permissions, you will have the **Generated URL** that you can use to add your BOT to any server
 7. Create a `.env` file and write, deleting all brackets
-    ```TOKEN={Your TOKEN here}
+    ```
+    TOKEN={Your TOKEN here}
     CLIENT_ID={Can be found on 'General Information' as 'Application ID'}
     GUILD_ID={Get by right-clicking on the server name on Discord and selecting 'Copy ID'}```
 8. Open your terminal and run `node deploy-commands.js` to initialize all commands (only need to do if creating or deleting commands)
