@@ -1,5 +1,5 @@
 <h2 align="center">
-  Dev Helper - v1.0.0<br/>
+  Dev Helper - v1.0.1<br/>
   <a href="https://discord.com/api/oauth2/authorize?client_id=1074053061334536303&permissions=8&scope=bot%20applications.commands" target="_blank">Invite me!</a>
 </h2>
 <div align="center">

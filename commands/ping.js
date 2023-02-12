@@ -1,5 +1,5 @@
 // Requires the necessary classes
-const { SlashCommandBuilder } = require("discord.js");
+const { SlashCommandBuilder, EmbedBuilder } = require("discord.js");
 
 // Exports the data
 module.exports = {
@@ -10,6 +10,11 @@ module.exports = {
 
     // Deals with the interaction
     async execute(interaction){
-        await interaction.reply("Pong!")
+        // Builds an embed message
+        const embedMotivation = new EmbedBuilder()
+            .setColor("Blue")
+            .setDescription("Pong!");
+
+        await interaction.reply({ embeds: [embedMotivation] });
     }
 }

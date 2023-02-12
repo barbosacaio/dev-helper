@@ -4,7 +4,7 @@
     "dotenv": "^16.0.3"
   },
   "name": "dev-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dev Helper is a Discord Bot coded to help new and emerging developers",
   "main": "index.js",
   "scripts": {
